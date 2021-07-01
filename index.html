@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <h1>Um Simples Jogo de Blackjack!</h1>
+        <p id="message-el">Deseja jogar uma rodada?</p>
+        <p id="cards-el">Cartas:</p>
+        <p id="total-el">Total:</p>
+        <p id="banca-el">Banca:</p>
+        <button onclick="startGame()">INICIAR JOGO</button>
+        <button onclick="drawCard()">COMPRAR CARTA</button>
+        <button onclick="apostar()">APOSTAR</button>
+        <p id="regras-titulo">Regras:</p>
+        <p class="regras-par">As cartas possíveis são: 2, 3, 4, 5, 6, 7, 8, 9, 10 e 11</p>
+        <p class="regras-par">Para começar uma rodada, clique no botão "INICIAR JOGO".</p>
+        <p class="regras-par">Sua mão inicial é de duas cartas. Se quiser, pode comprar uma carta por vez
+                              clicando no botão "COMPRAR CARTA".</p>
+        <p class="regras-par">Se o valor total de suas cartas for 21, você vence automaticamente.</p>
+        <p class="regras-par">Se o total extrapolar 21, você perde automaticamente.</p>
+        <p class="regras-par">Você pode tentar apostar contra a banca clicando em "APOSTAR". Vence quem estiver 
+                            mais próximo de 21.</p>
+        <p class="regras-par">*Pode não corresponder as regras verdadeiras de BlackJack.</p>
+        <script src="index.js"></script>
+    </body>
+</html>

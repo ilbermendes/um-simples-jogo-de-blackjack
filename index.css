@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("table.jpg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+h1 {
+    color: rgb(236, 191, 76);
+    font-size: 4em;
+}
+
+p {
+    font-size: 2em;
+}
+
+button {
+    color: #016F32;
+    font-weight: bold;
+    width: 150px;
+    background-color: rgb(236, 191, 76);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 2px;
+}
+
+button:hover {
+    width: 180px;
+    height: 50px;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+#regras-titulo {
+    color: rgb(236, 191, 76);
+}
+
+.regras-par {
+    font-size: 1.4em;
+}

@@ -7,4 +7,4 @@ In english:
 
 # A Simple Blackjack Game
 A Blackjack game developed along a video-lesson on FreeCodeCamp channel. Link: https://youtu.be/jS4aFq5-91M.
-Part of the code was written along the lesson and other part was written by me to include new features, like the possibility of betting against the.
+Part of the code was written along the lesson and other part was written by me to include new features, like the possibility of betting against the dealer.
